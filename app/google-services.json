@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "477204873994",
+    "project_id": "shoppro-5e1ad",
+    "storage_bucket": "shoppro-5e1ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477204873994:android:2ce5b963c98c7b4524b0f3",
+        "android_client_info": {
+          "package_name": "com.jenniferksantos.shoppro"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477204873994-la3kt3cus7rvt4jqc4gtl5kt1q43uass.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP1enIN-_ESUdPN5aUxgPc4WlHu9D990A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477204873994-la3kt3cus7rvt4jqc4gtl5kt1q43uass.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

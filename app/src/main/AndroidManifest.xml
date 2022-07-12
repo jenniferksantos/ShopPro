@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jenniferksantos.shoppro" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="ShopPro"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ShopPro" >
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ShopPro.NoActionBar" >
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+    </intent-filter>
+    </activity>
+
+        <activity
+            android:name=".BaseActivity"
+            />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="fullSensor" />
+        <activity
+            android:name=".LoginActivity"
+
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ShopPro.NoActionBar" />
+        <activity
+            android:name=".RegisterActivity"
+            android:screenOrientation="fullSensor"
+            android:theme="@style/Theme.ShopPro.NoActionBar"/>
+
+
+
+    </application>
+
+</manifest>
